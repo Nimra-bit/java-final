@@ -1,0 +1,15 @@
+a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+span {
+    text-decoration: underline;
+    color: blue;
+}

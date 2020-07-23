@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-12">
+          <div class="row align-item-center text-center">
+            <div class="col-md-2">
+              <img  onclick="Usms()" src="https://www.telemart.pk/uploads/product_image/product_115809_1_thumb.jpg" name="" id="pic">
+              <p>Xiaomi Black Shark</p>
+            </div>
+    
+    
+            <div class="col-md-2">
+              <img onclick="Usms()" src="https://www.telemart.pk/uploads/product_image/product_115827_1_thumb.jpg" name="" id="pic">
+              <p>OnePlus 8 Pro</p>
+            </div>
+    
+    
+            <div class="col-md-2">
+              <img onclick="Usms()" src="https://www.telemart.pk/uploads/product_image/product_112827_1_thumb.jpg" name="" id="pic">
+              <p>Samsung Galaxy S20 Plus</p>
+            </div>
+    
+            <div class="col-md-2">
+              <img onclick="Usms()" src="https://www.telemart.pk/uploads/product_image/product_116417_1_thumb.jpg" name="" id="pic">
+              <p>Vivo V19</p>
+            </div>
+    
+    
+            <div class="col-md-2">
+              <img onclick="Usms()" src="https://www.telemart.pk/uploads/product_image/product_107235_1_thumb.jpg" name="" id="pic">
+              <p>Infinix Hot 8</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+      <br />
+      <br />
+      <br />
+      <br />
+    
+    
+      <table class="table" id="mytab">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Course</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Nimra Riaz</td>
+            <td>Web Design</td>
+            <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Kinza</td>
+            <td>Graphic Design</td>
+            <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Ramsha</td>
+            <td>Andriod Developer</td>
+            <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+    
+          <tr>
+            <th scope="row">4</th>
+            <td>Muniza</td>
+            <td>Html</td>
+            <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+    
+          <tr>
+            <th scope="row">5</th>
+            <td>Beena</td>
+            <td>Ios Developer</td>
+            <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+    
+          <tr>
+            <th scope="row">6</th>
+            <td>tayyab</td>
+            <td>Basics Computer</td>
+            <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+    
+          <tr>
+            <th scope="row">7</th>
+            <td>Riaz</td>
+            <td>Ms Office</td>
+            <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+    
+          <tr>
+            <th scope="row">8</th>
+            <td>Zoya</td>
+            <td>C.I.T</td>
+            <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+    
+          <tr>
+            <th scope="row">9</th>
+            <td>Ali</td>
+            <td>D.I.T</td>
+            <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+    
+          <tr>
+            <th scope="row">10</th>
+            <td>Arsala</td>
+            <td>Full Stack Developer</td>
+            <td><button type="button" class="btn btn-dark" value="Delete Row" onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+    
+    
+    
+      <br />
+      <br />
+      <br />
+      <br />
+    
+      <img id="img1"  onmouseout="SetOldImage()" src="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_960_720.jpg" alt="" style="width: 300px; height: 300px;">
+    
+      <img id="img1" onmouseover="SetNewImage()"  src="https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_960_720.jpg" alt="" style="width: 300px; height: 300px;">
+    
+    
+    
+      <br />
+      <br />
+      <br />
+      <br />
+    
+    
+    
+      <button onclick="abc()">Increment</button>
+      <button onclick="abc1()">Decrement</button>
+      <h1 id="change">0</h1>
+    
+    
+    
+    
+    
+
+    <script src="app.js"></script>   
+</body>
+
+</html>
